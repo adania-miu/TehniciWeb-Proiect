@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+  
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Acordarea primului ajutor</title>
+</head>
+    
+<body>
+    
+    <header>
+
+       <img id="logo" src="logo.png" alt="">
+
+       <div class="navbar">
+        <a href="pagina_principala.html">Pagina principala</a>
+        <div class="dropdown">
+            <button class="dropbtn">Ghid de prim ajutor</button>
+          <div class="dropdown-content">
+            <a href="pagina1.html">Principii de baza</a>
+            <a href="pagina2.html">Apel 112</a>
+            <a href="pagina3.html">Pierderea constientei</a>
+            <a href="pagina4.html">Stopul cardio-respirator</a>
+            <a href="pagina5.html">Obstructia cailor aeriene</a>
+          </div>
+         </div>
+       </div>
+    
+    </header>
+    
+    <img src="pic1.jpg" alt="">
+      
+    <div class="grid-container">
+        <div class="header">
+          <h1 id="title">Acordarea primului ajutor</h1>
+        </div>
+
+        <div class="main">
+          <h2>Informații generale despre acordarea primul ajutor</h2>
+        
+          <p>  
+          &emsp;<b>Primul ajutor</b> constă în totalitatea măsurilor care se aplică imediat în cazul unei urgențe medicale până la sosirea serviciului de urgență sau până la intervenția unui medic.
+          <br/><br/>
+         
+          &emsp;<b>Primul ajutor calificat</b> constă în efectuarea unor acțiuni salvatoare de viață unor persoane care au suferit o accidentare sau îmbolnăvire acută, de către personal paramedical care a urmat cursuri speciale de formare și care are în dotare echipamentele specifice acestui scop, inclusiv defibrilatoare semiautomate, funcționând sub formă de echipe de prim ajutor într-un cadru instituționalizat, înainte de intervenția medicilor. 
+          <br/><br/>
+          </p>
+        </div>  
+
+        <div class="right"><p>
+          &emsp;Viața unei persoane accidentate depinde, într-o mare măsură, de momentul acordării primului ajutor și de priceperea celui care intervine primul la locul accidentului. Dacă te-ai aflat vreodată în situația de a primi sau de a acorda primul ajutor unei persoane, cu siguranță știi cât de important este un curs de prim ajutor. Primul ajutor de bază este doar un ajutor temporar acordat în caz de urgență pentru salvarea vieții, prevenirea unor complicații ulterioare și ameliorarea suferințelor până în momentul în care un serviciu medical adecvat poate să intervină.
+          <br/><br/>
+          &ensp;<b>De ce să acorzi primul ajutor?</b> 
+          <br/>
+           
+          &emsp;Există o serie întreagă de concepţii greşite care îi fac pe oameni să nu se implice: Nu poate fi atât de grav., Altcineva va veni în ajutor., Nu sunt obligat să ajut. Dar trebuie să fim conştienţi că, în situaţii de urgenţă, fiecare persoană are obligaţia morală de a ajuta în limita posibilităţilor şi a cunoştinţelor. Cu toţii avem ceva de făcut, însă dacă toată lumea ar gândi aşa şi şi-ar continua drumul, victima nu ar fi ajutată de nimeni.
+          </p>
+        </div>
+
+        <div class="footer">	
+          <h3>Contacteaza-ne!</h3>
+
+          <form name = "form" action="#">
+
+            <div class="form-group">
+                <label for="firstName">Prenume</label>
+                <input id = "firstName" name="firstName" type="text" required placeholder="Andrei" data-pattern = "^[A-Za-z]*$"/>
+                <div class="input-error">
+                  Prenume Invalid!
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="form-group2">
+                <label for="lastName">Nume</label>
+                <input id = "lastName" name="lastName" type="text" required placeholder="Popescu" data-pattern = "^[A-Za-z]*$"/>
+                <div class="input-error">
+                  Nume Invalid!
+                </div>
+            </div>
+
+            <br/>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@domain.com" data-pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+            <br/>
+            <label for="message">Mesaj</label>
+            <br/>
+            <textarea id = "message" name="message" cols="30" rows="10" placeholder="Introdu mesajul aici..." required > </textarea>
+            <div class="center">
+              <input type="submit" value="Submit" id = "button" >
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    
+</body>
+
+</html>

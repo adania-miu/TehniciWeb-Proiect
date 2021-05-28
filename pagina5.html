@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Acordarea primului ajutor</title>
+</head>
+    
+<body>
+    
+    <header>
+
+       <img id="logo" src="logo.png" alt="">
+
+       <div class="navbar">
+        <a href="pagina_principala.html">Pagina principala</a>
+        <div class="dropdown">
+            <button class="dropbtn">Ghid de prim ajutor</button>
+          <div class="dropdown-content">
+            <a href="pagina1.html">Principii de baza</a>
+            <a href="pagina2.html">Apel 112</a>
+            <a href="pagina3.html">Pierderea constientei</a>
+            <a href="pagina4.html">Stopul cardio-respirator</a>
+            <a href="pagina5.html">Obstructia cailor aeriene</a>
+          </div>
+         </div>
+       </div>
+    
+    </header>
+    
+    <div class="grid-container">
+
+        <div class="header">
+            <h1 id="title">Obstrucția căilor aeriene</h1>
+        </div>
+
+        <div class="main">
+            <h2>Obstrucția căilor aeriene</h2>
+        
+            <p>1.Încurajați victima să tușească</p>
+                    <ul>
+                        <li>Apropiați-vă de victimă.</li>
+                        <li>Încurajați victima să tușească.</li>
+                        <li>Supravegheați-o în permanență.</li>
+                        <li>Dacă victima nu își revine și obstrucția devine severă, aplicați manevrele de dezobstrucție.</li>
+                        <li>Anunțați 112.</li>
+                    </ul>
+            
+             <p>2.Cinci lovituri interscapulare (între omoplați)</p>
+                    <ul>
+                        <li>Așezați-vă în spatele victimei.</li>
+                        <li>Așezați o mână pe pieptul acesteia. Cu cealaltă mână loviți victima între omoplați de cinci ori.</li>
+                        <li>După fiecare lovitură verificați dacă obiectul a ieșit.</li>
+                    </ul>
+                
+             <p>3.Cinci compresiuni abdominale </p>
+                    <ul>
+                        <li>Dacă cele cinci lovituri interscapulare nu au avut succes, aplicați cinci compresiuni abdominale (manevra Heimlich).</li>
+                        <li>Compresia abdominală la copii mici se va realiza cu o singură mână.</li>
+                        <li>După fiecare compresiune abdominală, verificați dacă obiectul a ieșit.</li>
+                    </ul>
+             
+             <p>4.Alternați cinci lovituri interscapulare cu cinci compresiuni abdominale </p>
+                    <ul>
+                        <li>Dacă manevra Heimlich nu a avut succes, reluați aplicarea celor cinci lovituri interscapulare.</li>
+                        <li>Manevrele de dezobstrucție se vor realiza până când obiectul a ieșit.</li>
+                        <li>Dacă pacientul devine inconștient, începeți resuscitarea cardio-pulmonară.</li>
+                    </ul>
+        </div>
+
+        <div class="footer">
+            <h3>Contacteaza-ne!</h3>
+
+            <form name = "form" action="#">
+  
+              <div class="form-group">
+  
+                  <label for="firstName">Prenume</label>
+  
+                  <input id = "firstName" name="firstName" type="text" required placeholder="Andrei" data-pattern = "^[A-Za-z]*$"/>
+  
+                  <div class="input-error">
+                    Prenume Invalid!
+                  </div>
+  
+              </div>
+  
+              <br/>
+  
+              <div class="form-group2">
+  
+                  <label for="lastName">Nume</label>
+  
+                  <input id = "lastName" name="lastName" type="text" required placeholder="Popescu" data-pattern = "^[A-Za-z]*$"/>
+  
+                  <div class="input-error">
+                    Nume Invalid!
+                  </div>
+  
+              </div>
+  
+              <br/>
+  
+              <label for="email">Email</label>
+  
+              <input id="email" name="email" type="email" required placeholder="you@domain.com" data-pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+  
+              <br/>
+  
+              <label for="message">Mesaj</label>
+              <br/>
+  
+              <textarea id = "message" name="message" cols="30" rows="10" placeholder="Introdu mesajul aici..." required > </textarea>
+  
+              <div class="center">
+                <input type="submit" value="Submit" id = "button" >
+              </div>
+  
+            </form>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+
+    </body>
+
+</html>

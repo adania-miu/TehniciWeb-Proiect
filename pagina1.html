@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ro">
+    
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Acordarea primului ajutor</title>
+</head>
+    
+<body>
+    
+    <header>
+
+       <img id="logo" src="logo.png" alt="">
+
+       <div class="navbar">
+        <a href="pagina_principala.html">Pagina principala</a>
+        <div class="dropdown">
+            <button class="dropbtn">Ghid de prim ajutor</button>
+          <div class="dropdown-content">
+            <a href="pagina1.html">Principii de baza</a>
+            <a href="pagina2.html">Apel 112</a>
+            <a href="pagina3.html">Pierderea constientei</a>
+            <a href="pagina4.html">Stopul cardio-respirator</a>
+            <a href="pagina5.html">Obstructia cailor aeriene</a>
+          </div>
+         </div>
+       </div>
+    </header>
+   
+    <img src="pic2.jpg" alt=""/>
+        
+    <div class="grid-container">
+        <div class="header">
+          <h1 id="title">Principiile de bază în acordarea primului ajutor</h1>
+        </div>
+
+        <div class="main">
+           <h2>Principii de baza</h2>
+        
+           <p>&emsp;Aceste principii se aplică în orice situație în care intervine o persoană care acordă prim ajutor:</p>
+            
+            <ol>
+                
+            <li>Înainte de orice angajament în acțiune, persoana care acordă prim ajutor trebuie să evalueze situația de urgentă, în primul rând problemele legate de pericolul care o amenință sau o pot afecta, pe ea, pe victimă sau pe trecători.</li>
+                
+            <li>Protecția de pericol și de posibilele reapariții ale acestuia ar trebui să fie prima și permanenta preocupare a persoanei care acordă prim ajutor. Dacă există un potențial pericol pentru persoana care acordă prim ajutor, protejarea și salvarea trebuie efectuate de către forțele specializate (poliție, pompieri, etc.).</li>
+                
+            <li>Acțiunile persoanei care acordă prim ajutor nu trebuie să înrăutățească starea victimei și trebuie să asigure un efect stabilizator sau benefic asupra situației victimei și a trecătorilor, prevenind sau limitând totodată dezvoltarea complicațiilor.</li>
+                
+            <li>Măsurile de asistență luate trebuie să fie corespunzătoare situației și trebuie inițiate în condiții de siguranță, rapid și efectiv, prioritare fiind problemele care amenință viața.</li>
+                
+            <li>Persoana care acordă prim ajutor ar trebui să:</li>
+             
+            </ol>
+            
+            <ul>
+                
+            <li>asiste fără a avea sau a fi afectată de prejudecăți, încercând să aline suferința unei persoane, fiind ghidată doar de asistența umanitară care răspunde la necesitățile victimei și prezintă respect față de victimă și realități.</li>
+             
+            <li>actioneze întotdeauna în condiții de siguranță și confortabile, să fie capabilă să execute cu ușurință măsurile de salvare și protejare a vieții și să supravegheze victima și situația.</li>
+             
+            <li>solicite ajutor corespunzător din resursele comunității, când și unde este posibil.</li>
+             
+            <li>urmărească obținerea cooperării victimei, prezentându-se și stabilindu-și rolul de asistență.</li>
+             
+            <li>strangă toate informațiile posibile despre situație și starea victimei, pentru a-și ghida acțiunile.</li>
+             
+            <li>predea victima unui serviciu de urgență cât mai repede posibil, dacă un astfel de serviciu este disponibil și necesar (incapacitate de a finaliza intervenția fără un astfel de suport).</li>
+             
+            <li>ofere suport psihologic victimei, prin atitudinea, cuvintele și acțiunile sale, ținând cont de faptul că îngrijește "o persoană rănită, nu doar rana". Reasigurarea ar trebui să fie asigurată de asemenea și cu trecătorii.</li> 
+             
+            <li>asiste și să monitorizeze condiția victimei până când asistența nu mai este necesară. Întreruperea asistenței se poate produce când serviciul de urgență ajunge la locul intervenției, victima ajunge la serviciul de urgență sau se determină că victima nu mai necesită nici o îngrijire în continuare.</li>
+             
+            <li>să fie doritoare și capabilă să asiste serviciul de urgență în asigurarea îngrijirii victimei, incluzând furnizarea informațiilor despre victimă și situația de urgență.</li>
+             
+            </ul>  
+        </div>  
+
+        <div class="footer">
+          <h3>Contacteaza-ne!</h3>
+
+          <form name = "form" action="#">
+
+            <div class="form-group">
+
+                <label for="firstName">Prenume</label>
+
+                <input id = "firstName" name="firstName" type="text" required placeholder="Andrei" data-pattern = "^[A-Za-z]*$"/>
+
+                <div class="input-error">
+                  Prenume Invalid!
+                </div>
+
+            </div>
+
+            <br/>
+
+            <div class="form-group2">
+
+                <label for="lastName">Nume</label>
+
+                <input id = "lastName" name="lastName" type="text" required placeholder="Popescu" data-pattern = "^[A-Za-z]*$"/>
+
+                <div class="input-error">
+                  Nume Invalid!
+                </div>
+
+            </div>
+
+            <br/>
+
+            <label for="email">Email</label>
+
+            <input id="email" name="email" type="email" required placeholder="you@domain.com" data-pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+
+            <br/>
+
+            <label for="message">Mesaj</label>
+            <br/>
+
+            <textarea id = "message" name="message" cols="30" rows="10" placeholder="Introdu mesajul aici..." required > </textarea>
+
+            <div class="center">
+              <input type="submit" value="Submit" id = "button" >
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
